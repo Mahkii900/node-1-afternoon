@@ -10,4 +10,5 @@ const getProducts = (req, res) => {
         res.status(200).send(products)}
     }
 
+//export getProducts
 module.exports = getProducts
